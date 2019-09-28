@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Patua+One&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -599,23 +600,21 @@ html {
 }
 
 .navbar {
+  margin: 0;
+  padding: 10px;
   width: 100%;
   height: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   background: black;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .home {
   color: aliceblue;
   text-decoration: none;
+  font-family: 'Patua One', cursive;
 }
 
 .btn {
+  width: 60px;
   background: aqua;
 }
 

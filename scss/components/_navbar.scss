@@ -1,14 +1,16 @@
 .navbar{
+    margin: 0;
+    padding: 10px;
     width: 100%;
     height: 40px;
-    display: flex;
     background: black;
-    align-items: center;
 }
 .home{
     color: aliceblue;
     text-decoration: none;
+    font-family: 'Patua One', cursive;
 }
 .btn{
+    width: 60px;
     background: aqua;   
 }
