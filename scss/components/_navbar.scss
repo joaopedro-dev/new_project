@@ -1,17 +1,14 @@
-#navbar{
+.navbar{
     width: 100%;
     height: 40px;
     display: flex;
     background: black;
-    justify-content: space-between;
+    align-items: center;
 }
-#home{
-    padding: 10px;
-    display: flex;
-    align-content: center;
+.home{
+    color: aliceblue;
+    text-decoration: none;
 }
-#menu{
-    padding: 5px; 
-    display: flex;
-    align-content: center;
+.btn{
+    background: aqua;   
 }

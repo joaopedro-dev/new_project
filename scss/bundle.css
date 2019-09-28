@@ -598,34 +598,25 @@ html {
   }
 }
 
-#navbar {
+.navbar {
   width: 100%;
   height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: black;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#home {
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+.home {
+  color: aliceblue;
+  text-decoration: none;
 }
 
-#menu {
-  padding: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: center;
-      align-content: center;
+.btn {
+  background: aqua;
 }
 
 body {
