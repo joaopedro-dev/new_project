@@ -611,6 +611,9 @@ html {
   color: aliceblue;
   text-decoration: none;
   font-family: 'Patua One', cursive;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .btn {
