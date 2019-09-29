@@ -619,7 +619,8 @@ html {
 
 .navbar .home {
   font-size: 15px;
-  color: bisque;
+  font-weight: 600;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   -webkit-box-pack: start;
@@ -802,12 +803,28 @@ html {
           box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
 }
 
-.dash_comment .comment_card .comment_title {
+.dash_comment .comment_card .comment_text {
+  color: #444444;
   font-family: "Raleway", sans-serif;
+  border-left: solid 0.5rem;
+  font-style: italic;
+  margin: 0 0 2rem 0;
+  padding: 1rem 0 1rem 2rem;
 }
 
-.dash_comment .comment_card .comment_text {
+.dash_comment .comment_card .autor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dash_comment .comment_card .autor .credit {
   font-family: "Raleway", sans-serif;
+  color: #444444;
+  font-size: 14px;
 }
 
 .foot {
