@@ -1,0 +1,15 @@
+.dash_card{
+    display: flex;
+    justify-content: space-between;
+    .card{
+        align-items: center;
+        padding: 20px;
+        margin: 8px;
+        width: 300px;   
+        border: solid 1px #333333;
+        border-radius: 5px;
+        .title_card{
+            text-align: center;
+        }
+    }   
+}
