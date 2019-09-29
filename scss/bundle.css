@@ -748,10 +748,11 @@ html {
 
 .foot {
   background: black;
-  height: 100px;
+  height: 80px;
 }
 
 .foot .text_footer {
+  font-size: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
