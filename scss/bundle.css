@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Patua+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif|Passion+One&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -719,6 +719,10 @@ html {
 
 .dash_card .card i {
   padding-left: 5px;
+}
+
+.dash_card .card .title_card {
+  font-family: "Passion One", cursive;
 }
 
 html {
