@@ -1,15 +1,39 @@
 .dash_card{
-    display: flex;
+    //dash
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    //text
+    .normal_text{
+        padding: 10px;  
+        justify-content: center;
+        text-align: center;
+        .title_normal{
+            font-family: $link_font;
+            font-size: 30px;
+        }
+        .text_normal{   
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+    }
+    //cards
     .card{
         align-items: center;
         padding: 20px;
-        margin: 8px;
+        margin: 10px;
         width: 300px;   
         border: solid 1px #333333;
         border-radius: 5px;
+        text-align: center;
+        i{
+            padding-left: 5px;
+        }
         .title_card{
-            text-align: center;
+            
+        }
+        .text_card{
+            
         }
     }   
 }

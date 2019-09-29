@@ -604,7 +604,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 100%;
-  height: 40px;
+  height: 45px;
   background: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -677,12 +677,32 @@ html {
 }
 
 .dash_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dash_card .normal_text {
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.dash_card .normal_text .title_normal {
+  font-family: "Noto Serif", serif;
+  font-size: 30px;
+}
+
+.dash_card .normal_text .text_normal {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .dash_card .card {
@@ -690,14 +710,15 @@ html {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
-  margin: 8px;
+  margin: 10px;
   width: 300px;
   border: solid 1px #333333;
   border-radius: 5px;
+  text-align: center;
 }
 
-.dash_card .card .title_card {
-  text-align: center;
+.dash_card .card i {
+  padding-left: 5px;
 }
 
 html {
