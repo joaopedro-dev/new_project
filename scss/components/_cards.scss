@@ -9,6 +9,9 @@
         padding: 50px;  
         justify-content: center;
         text-align: center;
+        max-width: 950px;
+        margin: 0 auto;
+
         .title_normal{
             font-family: $home_font;
             font-size: 35px;
@@ -16,8 +19,6 @@
         .text_normal{   
             font-family: $text_normal_font;
             font-size: 18px;
-            margin-left: 200px;
-            margin-right: 200px;
         }
     }
     //cards
@@ -25,21 +26,23 @@
         background-color: white;
         align-items: center;
         align-content: center;
-        padding: 50px;
+        padding: 50px 25px;
         margin: 10px;
-        height: 400px;
-        width: 100%;   
+        max-width: 100%;   
         border-radius:10px;
-        box-shadow: 0px 1px 10px 1px #000;
+        box-shadow: 0 3px 12px -6px rgba(0, 0, 0, .3);
         text-align: center;
-        i{
-            padding-left: 5px;
+        .icon {
+            font-size: 100px;
+            color: rgba(243, 230, 230, 0.808);
+            text-shadow: 0px 3px 5px #9e9797;
         }
         .title_card{
             font-family: $card_title_font;
         }
         .text_card{
-            font-family: $card_text_font
+            color: $graphite;
+            font-family: $card_text_font;
         }
     }   
 }

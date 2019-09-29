@@ -674,15 +674,12 @@ html {
   padding-left: 100px;
 }
 
-.banner .image {
+.banner {
   width: 100%;
-  height: 600px;
 }
 
-.banner .image_2 {
-  padding-top: 100px;
+.banner .image {
   width: 100%;
-  height: 600px;
 }
 
 .dash_card {
@@ -703,6 +700,8 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .dash_card .normal_text .title_normal {
@@ -713,8 +712,6 @@ html {
 .dash_card .normal_text .text_normal {
   font-family: "Libre Baskerville", serif;
   font-size: 18px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .dash_card .card {
@@ -724,18 +721,19 @@ html {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 50px;
+  padding: 50px 25px;
   margin: 10px;
-  height: 400px;
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 1px 10px 1px #000;
-          box-shadow: 0px 1px 10px 1px #000;
+  -webkit-box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
 
-.dash_card .card i {
-  padding-left: 5px;
+.dash_card .card .icon {
+  font-size: 100px;
+  color: rgba(243, 230, 230, 0.808);
+  text-shadow: 0px 3px 5px #9e9797;
 }
 
 .dash_card .card .title_card {
@@ -743,6 +741,7 @@ html {
 }
 
 .dash_card .card .text_card {
+  color: #333;
   font-family: "Vidaloka", serif;
 }
 
