@@ -748,7 +748,7 @@ html {
 
 .foot {
   background: black;
-  height: 80px;
+  height: 45px;
 }
 
 .foot .text_footer {
@@ -760,6 +760,11 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.foot .text_footer .link_copy {
+  color: white;
+  text-decoration: none;
 }
 
 html {
