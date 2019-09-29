@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Patua+One&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Noto+Serif|Passion+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Serif|Passion+One|Vidaloka&display=swap");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -604,7 +604,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 100%;
-  height: 45px;
+  height: 50px;
   background: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -615,7 +615,7 @@ html {
 }
 
 .navbar .home {
-  font-size: 20px;
+  font-size: 25px;
   color: bisque;
   text-decoration: none;
   font-family: "Patua One", cursive;
@@ -688,7 +688,7 @@ html {
 }
 
 .dash_card .normal_text {
-  padding: 10px;
+  padding: 50px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -696,24 +696,30 @@ html {
 }
 
 .dash_card .normal_text .title_normal {
-  font-family: "Noto Serif", serif;
-  font-size: 30px;
+  font-family: "Patua One", cursive;
+  font-size: 35px;
 }
 
 .dash_card .normal_text .text_normal {
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
   margin-left: 200px;
   margin-right: 200px;
 }
 
 .dash_card .card {
+  background-color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 50px;
   margin: 10px;
+  height: 400px;
   width: 300px;
   border: solid 1px #333333;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -725,6 +731,10 @@ html {
   font-family: "Passion One", cursive;
 }
 
+.dash_card .card .text_card {
+  font-family: "Vidaloka", serif;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -733,5 +743,6 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  background-color: rgba(226, 218, 218, 0.863);
 }
 /*# sourceMappingURL=bundle.css.map */

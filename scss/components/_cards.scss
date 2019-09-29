@@ -5,26 +5,31 @@
     align-items: center;
     //text
     .normal_text{
-        padding: 10px;  
+        padding: 50px;  
         justify-content: center;
         text-align: center;
         .title_normal{
-            font-family: $link_font;
-            font-size: 30px;
+            font-family: $home_font;
+            font-size: 35px;
         }
         .text_normal{   
+            font-family: $text_normal_font;
+            font-size: 18px;
             margin-left: 200px;
             margin-right: 200px;
         }
     }
     //cards
     .card{
+        background-color: white;
         align-items: center;
-        padding: 20px;
+        align-content: center;
+        padding: 50px;
         margin: 10px;
+        height: 400px;
         width: 300px;   
         border: solid 1px #333333;
-        border-radius: 5px;
+        border-radius:10px;
         text-align: center;
         i{
             padding-left: 5px;
@@ -32,8 +37,8 @@
         .title_card{
             font-family: $card_title_font;
         }
-        // .text_card{
-            
-        // }
+        .text_card{
+            font-family: $card_text_font
+        }
     }   
 }
