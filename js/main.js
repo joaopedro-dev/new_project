@@ -1,14 +1,14 @@
 $(document).ready(function(){
     $('.btn').click(function(){
-        $('.menu').addClass('active')
+        $('.links').addClass('active')
     })
     $('.close').click(function(){
-        $('.menu').removeClass('active')
+        $('.links').removeClass('active')
     })
 })
 
 $('.home').click(function(){
-    $('.menu').toggleClass('active')
+    $('.links').toggleClass('active')
 })
 
 $('.title').click(function(){

@@ -8,27 +8,44 @@
     justify-content: space-between;
     .home{
         font-size: 20px;
-        color: aliceblue;
+        color: $color_nav;
         text-decoration: none;
-        font-family: 'Patua One', cursive;
+        font-family: $home_font;
         justify-content: flex-start;
     }
     .btn{
         padding-left: 23px;
         width: 60px;
-        color: antiquewhite;
+        color: $color_nav;
     }
-    .menu{
+    .links{
+        display: flex;
         position: absolute;
         height: 100vh;
         width: 200px;
         top: 0;
         right: -300px;
-        background: #333333;
-        transition: .25s ease-in-out;
-
+        background:black;
+        font-family: $link_font;
+        font-size: 14px;
+        color: $color_nav;
+        transition: .20s ease-in-out;
+        justify-content: center;
+        ul li {
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: $color_nav;
+            }
+        }
         &.active{
-            right: 0;
+            right: 0;  
+            ul li {
+                i{
+                    padding-left: 120px;
+                }
+                
+            } 
         }
     }
 }
