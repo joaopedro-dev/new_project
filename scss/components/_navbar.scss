@@ -4,14 +4,35 @@
     width: 100%;
     height: 40px;
     background: black;
+    display: flex;
+    justify-content: space-between;
+    .home{
+        font-size: 20px;
+        color: aliceblue;
+        text-decoration: none;
+        font-family: 'Patua One', cursive;
+        justify-content: flex-start;
+    }
+    .btn{
+        padding-left: 23px;
+        width: 60px;
+        color: antiquewhite;
+    }
+    .menu{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -300px;
+        background: #333333;
+        transition: .25s ease-in-out;
+
+        &.active{
+            right: 0;
+        }
+    }
 }
-.home{
-    color: aliceblue;
-    text-decoration: none;
-    font-family: 'Patua One', cursive;
-    justify-content: flex-start;
-}
-.btn{
-    width: 60px;
-    background: aqua;   
+.text{
+    display: none;
+    
 }

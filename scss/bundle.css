@@ -605,9 +605,16 @@ html {
   width: 100%;
   height: 40px;
   background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.home {
+.navbar .home {
+  font-size: 20px;
   color: aliceblue;
   text-decoration: none;
   font-family: 'Patua One', cursive;
@@ -616,9 +623,33 @@ html {
           justify-content: flex-start;
 }
 
-.btn {
+.navbar .btn {
+  padding-left: 23px;
   width: 60px;
-  background: aqua;
+  color: antiquewhite;
+}
+
+.navbar .menu {
+  position: absolute;
+  height: 100vh;
+  width: 200px;
+  top: 0;
+  right: -300px;
+  background: #333333;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.navbar .menu.active {
+  right: 0;
+}
+
+.text {
+  display: none;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
