@@ -1,51 +1,41 @@
-.dash_card{
+.dash_comment{
     //dash
+    padding: 20px;
+    display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    padding-bottom: 100px;
     //text
-    .normal_text{
-        padding: 50px;  
+    .final_text{
+        padding: 50px;
         justify-content: center;
         text-align: center;
         max-width: 950px;
         margin: 0 auto;
-
-        .title_normal{
+        .title_final{
             color: #555555;
             font-family: $all_font;
             font-size: 33px;
         }
-        .text_normal{   
+        .text_final{
             font-family: $all_font;
             font-size: 15px;
         }
     }
-    //cards
-    .card{
-        background-color: white;
+
+    .comment_card{  
         align-items: center;
         align-content: center;
-        padding: 50px 25px;
+        padding: 22px 25px;
         margin: 10px;
-        max-width: 100%;   
-        border-radius: 3px;
+        max-width: 100%;
         box-shadow: 0 3px 12px -6px rgba(0, 0, 0, .3);
-        text-align: center;
-        .icon {
-            font-size: 100px;
-            color: #ce1b28;
-            text-shadow: 0px 3px 5px #9e9797;
-        }
-        .title_card{
-            font-size: 18px;
+        .comment_title{
             font-family: $all_font;
         }
-        .text_card{
-            font-size: 15px;
-            color: $graphite;
+        .comment_text{
             font-family: $all_font;
         }
-    }   
+    }
+
 }

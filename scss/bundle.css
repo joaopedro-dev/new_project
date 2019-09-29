@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton|Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Noto+Serif|Passion+One|Vidaloka&display=swap");
 html {
   -webkit-box-sizing: border-box;
@@ -604,7 +605,7 @@ html {
   margin: 0;
   padding: 10px;
   width: 100%;
-  height: 50px;
+  height: 40px;
   position: fixed;
   z-index: 10001;
   background: black;
@@ -617,10 +618,10 @@ html {
 }
 
 .navbar .home {
-  font-size: 25px;
+  font-size: 15px;
   color: bisque;
   text-decoration: none;
-  font-family: "Patua One", cursive;
+  font-family: "Raleway", sans-serif;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
@@ -628,7 +629,7 @@ html {
 
 .navbar .btn {
   padding-left: 23px;
-  width: 60px;
+  width: 50px;
   color: bisque;
 }
 
@@ -642,7 +643,7 @@ html {
   top: 0;
   right: -300px;
   background: black;
-  font-family: "Noto Serif", serif;
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: bisque;
   -webkit-transition: .20s ease-in-out;
@@ -682,6 +683,10 @@ html {
   width: 100%;
 }
 
+.banner .image_2 {
+  width: 100%;
+}
+
 .dash_card {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -705,13 +710,14 @@ html {
 }
 
 .dash_card .normal_text .title_normal {
-  font-family: "Patua One", cursive;
-  font-size: 35px;
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
 }
 
 .dash_card .normal_text .text_normal {
-  font-family: "Libre Baskerville", serif;
-  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
 }
 
 .dash_card .card {
@@ -724,7 +730,7 @@ html {
   padding: 50px 25px;
   margin: 10px;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 3px;
   -webkit-box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
           box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -732,17 +738,76 @@ html {
 
 .dash_card .card .icon {
   font-size: 100px;
-  color: rgba(243, 230, 230, 0.808);
+  color: #ce1b28;
   text-shadow: 0px 3px 5px #9e9797;
 }
 
 .dash_card .card .title_card {
-  font-family: "Passion One", cursive;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
 }
 
 .dash_card .card .text_card {
+  font-size: 15px;
   color: #333;
-  font-family: "Vidaloka", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.dash_comment {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dash_comment .final_text {
+  padding: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.dash_comment .final_text .title_final {
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  font-size: 33px;
+}
+
+.dash_comment .final_text .text_final {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+
+.dash_comment .comment_card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 22px 25px;
+  margin: 10px;
+  max-width: 100%;
+  -webkit-box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
+}
+
+.dash_comment .comment_card .comment_title {
+  font-family: "Raleway", sans-serif;
+}
+
+.dash_comment .comment_card .comment_text {
+  font-family: "Raleway", sans-serif;
 }
 
 .foot {
