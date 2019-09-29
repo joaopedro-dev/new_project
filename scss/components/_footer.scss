@@ -1,4 +1,9 @@
 .foot{
     background: black;
-    height: 400px;;
+    height: 100px;
+    .text_footer{
+        display: flex;
+        color: white;
+        justify-content: center;
+    }
 }

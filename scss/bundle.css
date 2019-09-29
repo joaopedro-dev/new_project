@@ -748,7 +748,17 @@ html {
 
 .foot {
   background: black;
-  height: 400px;
+  height: 100px;
+}
+
+.foot .text_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 html {
