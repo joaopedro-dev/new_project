@@ -1,7 +1,8 @@
 .foot{
-    background: black;
-    height: 45px;
+    background: $font_nav;
+    height: 400px;
     .text_footer{
+        border-top: 1px  solid;
         font-size: 0.8rem;
         display: flex;
         color: white;

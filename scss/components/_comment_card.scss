@@ -26,10 +26,10 @@
     .comment_card{  
         align-items: center;
         align-content: center;
-        padding: 22px 25px;
+        padding: 3rem;
         margin: 10px;
         max-width: 100%;
-        box-shadow: 0 3px 12px -6px rgba(0, 0, 0, .3);
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
         .comment_text{
             color: #444444;
             font-family: $all_font;

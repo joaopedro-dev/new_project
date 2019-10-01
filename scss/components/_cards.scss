@@ -1,5 +1,6 @@
 .dash_card{
     //dash
+    margin: 0 auto;
     justify-content: space-between;
     align-content: center;
     align-items: center;
@@ -34,13 +35,14 @@
         box-shadow: 0 3px 12px -6px rgba(0, 0, 0, .3);
         text-align: center;
         .icon {
-            font-size: 100px;
+            font-size: 73px;
             color: #ce1b28;
             text-shadow: 0px 3px 5px #9e9797;
         }
         .title_card{
             font-size: 18px;
             font-family: $all_font;
+            font-style: normal;
         }
         .text_card{
             font-size: 15px;

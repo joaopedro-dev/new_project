@@ -603,12 +603,12 @@ html {
 
 .navbar {
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
-  height: 40px;
+  height: 50px;
   position: fixed;
   z-index: 10001;
-  background: black;
+  background: #131212;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -628,9 +628,13 @@ html {
           justify-content: flex-start;
 }
 
+.navbar .home .home_text {
+  font-family: "Raleway", sans-serif;
+}
+
 .navbar .btn {
-  padding-left: 23px;
-  width: 50px;
+  padding-left: 15px;
+  width: 80px;
   color: bisque;
 }
 
@@ -682,13 +686,16 @@ html {
 
 .banner .image {
   width: 100%;
+  max-height: 600px;
 }
 
 .banner .image_2 {
   width: 100%;
+  max-height: 300px;
 }
 
 .dash_card {
+  margin: 0 auto;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -738,7 +745,7 @@ html {
 }
 
 .dash_card .card .icon {
-  font-size: 100px;
+  font-size: 73px;
   color: #ce1b28;
   text-shadow: 0px 3px 5px #9e9797;
 }
@@ -746,6 +753,7 @@ html {
 .dash_card .card .title_card {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
+  font-style: normal;
 }
 
 .dash_card .card .text_card {
@@ -796,11 +804,11 @@ html {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 22px 25px;
+  padding: 3rem;
   margin: 10px;
   max-width: 100%;
-  -webkit-box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
+          box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025);
 }
 
 .dash_comment .comment_card .comment_text {
@@ -828,11 +836,12 @@ html {
 }
 
 .foot {
-  background: black;
-  height: 45px;
+  background: #131212;
+  height: 400px;
 }
 
 .foot .text_footer {
+  border-top: 1px  solid;
   font-size: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
