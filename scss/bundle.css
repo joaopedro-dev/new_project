@@ -735,10 +735,10 @@ html {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 50px 25px;
+  padding: 3rem;
   margin: 10px;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 4px;
   -webkit-box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
           box-shadow: 0 3px 12px -6px rgba(0, 0, 0, 0.3);
   text-align: center;
