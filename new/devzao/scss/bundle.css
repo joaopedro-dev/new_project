@@ -11,7 +11,7 @@
 }
 .box_error .text_error {
   padding-top: 120px;
-  padding: 10px;
+  padding-left: 72px;
   align-content: center;
   justify-content: center;
 }
@@ -28,6 +28,7 @@
   color: var(--greyish-brown);
 }
 .box_error .text_error .des_error {
+  padding-top: 10px;
   width: 560px;
   height: 96px;
   font-family: "Quicksand", sans-serif;
@@ -40,6 +41,7 @@
   color: var(--brownish-grey);
 }
 .box_error .text_error .credit_error {
+  padding-top: 10px;
   width: 195px;
   height: 28px;
   font-family: "Quicksand", sans-serif;
@@ -53,6 +55,7 @@
 }
 .box_error .image {
   padding-top: 24px;
+  padding-right: 72px;
   display: flex;
   align-content: center;
   justify-content: center;
