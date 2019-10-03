@@ -11,7 +11,9 @@
 }
 .box_error .text_error {
   padding-top: 120px;
+  padding: 10px;
   align-content: center;
+  justify-content: center;
 }
 .box_error .text_error .title_error {
   width: 560px;
@@ -50,16 +52,13 @@
   color: var(--greyish-brown);
 }
 .box_error .image {
+  padding-top: 24px;
   display: flex;
-  align-items: center;
   align-content: center;
-  width: 480px;
-  height: 480px;
+  justify-content: center;
 }
 .box_error .image .icon_error {
   background: #ffffff;
-  width: 349.5px;
-  height: 296.2px;
 }
 
 * {
